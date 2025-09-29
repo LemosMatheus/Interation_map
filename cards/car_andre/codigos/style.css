@@ -1,0 +1,63 @@
+.press-start-2p-regular {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+h2, h1, h3, h4 {
+    font-family: "Press Start 2P";
+    font-size: 16px;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #1959ada6;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-left: 500px;
+    margin-right: 500px;
+    border-radius: 40px;
+}
+div {
+    text-align: center;
+}
+#status {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 30px;
+}
+img {
+    height: 150px;
+}
+input {
+    outline: transparent;
+    border-radius: 10px;
+}
+#xp {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 100px 0px 100px;
+}
+#barra {
+    position: absolute;
+    height: 20px;
+    width: 43.5%;
+    background-color: rgba(116, 118, 121, 0.507);
+    margin-left: 30px;
+    border-radius: 10px;
+}
+#barra2 {
+    position: relative;
+    height: 20px;
+    width: 30%;
+    background-color: goldenrod;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+img {
+    border: 2px ;
+    border-radius: 10px;
+}
