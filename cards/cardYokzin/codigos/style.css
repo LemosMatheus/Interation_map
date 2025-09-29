@@ -1,0 +1,111 @@
+.press-start-2p-regular {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+body {
+    background-color: blue;
+    font-family: "Press Start 2P";
+    font-size: 12px;
+}
+/* fotinhas */
+#miles {
+    width: 130px;
+    height: 130px;
+    position: relative;
+    right: 80px;
+    top: 60px;
+}
+#trofeu {
+    width: 70px;
+    height: 70px;
+}
+#xp {
+    width: 250px;
+    margin-top: 0px;
+    border: solid aliceblue;
+    border-radius: 10px;
+    position: relative;
+    top: 10px;
+}
+#star {
+    width: 70px;
+    height: 70px;
+}
+#medal {
+    width: 70px;
+    height: 70px;
+}
+#setas {
+    width: 70px;
+    height: 70px;
+}
+/* div */
+#div1 {
+    margin-left: 600px;
+    margin-right: 600px;
+    text-align: center;
+    border-radius: 100px;
+}
+#div2 {
+    color: aliceblue;
+    display: flex;
+    align-content: center;
+    background-color: #1b31f5;
+    margin-bottom: 0px;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+#div3 {
+    color: goldenrod;
+    background-color: #3d4ff1;
+    margin-bottom: 1px;
+    border-radius: 10px;
+    margin-top: -14px;
+}
+#div4 {
+    background-color: aliceblue;
+    color: #3d4ff1;
+    margin-bottom: 1px;
+    border-radius: 10px;
+    margin-top: -14px;
+}
+/* input */
+input:placeholder-shown {
+    color: red;
+}
+#um {
+    position: relative;
+    left: 80px;
+    border: solid #1b31f5;
+    border-radius: 8px;
+    position: relative;
+    bottom: 13px;
+}
+#dois {
+    position: relative;
+    left: 80px;
+    border: solid #1b31f5;
+    border-radius: 8px;
+    position: relative;
+    bottom: 10px;
+}
+/* label */
+#class {
+    position: relative;
+    left: 60px;
+    bottom: 10px;
+}
+#name {
+    position: relative;
+    bottom: 13px;
+}
+#label_xp {
+    position: relative;
+    top: 8px;
+}
+/* text */
+#missao {
+    padding-top: 10px
+}
