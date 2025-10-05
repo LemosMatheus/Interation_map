@@ -1,0 +1,119 @@
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+
+.tiny5-regular {
+  font-family: "Tiny5", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+ html {
+    height: 100%;
+ }
+
+ body {
+    height: 100%;
+    background-color: #8E4A49;
+    align-content: center;
+    justify-items: center;
+   font-family: "Tiny5", sans-serif;
+   color: #FFEE93;
+ }
+
+ section {
+    height: 800px;
+    width: 500px;
+    border-radius: 20px;
+    background-color: #0D0630;
+    text-align: center;
+ }
+
+ #player {
+    height: 10%;
+    align-content: center;
+    border-top-right-radius: 20px;
+    border-top-left-radius:  20px;
+    background-color: #1C2321;
+ }
+ #up {
+    height: 20%;
+    align-content: center;
+    background-color: #5C6B73;
+ }
+ #info {
+    height: 30%;
+    background-color: #C2B8B2;
+    display: flex;
+    align-content: center;
+    justify-items: center;
+    flex-direction: row;
+ }
+ #img{
+    height: 180px;
+    width: 200px;
+    margin: 10px;
+    margin-top: 35px;
+    background-image: url(/Design\ sem\ nome.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 20px;
+ }
+
+ #dados{
+    height: 90%;
+    width: 60%;
+    margin: 1vw;
+    align-content: center;
+    text-align: start;
+  font-family: "Tiny5", sans-serif;
+ }
+
+#dados > p {
+   margin-top: 20px;
+   margin-bottom: 20px;
+   background-color: #656256;
+   border-radius: 20px;
+   text-align: center;
+  font-family: "Tiny5", sans-serif;
+}
+
+#xp {
+   height: 30%;
+   background-color: #C2B8B2;
+   display: flex;
+   align-content: center;
+   justify-items: center;
+   align-items: center;
+   flex-direction: column;
+  font-family: "Tiny5", sans-serif;
+}
+
+#block {
+   width: 500px;
+   display: flex;
+   align-content: center;
+   justify-content: space-around;
+   flex-direction: row;
+}
+
+#block > h2 {
+  font-family: "Tiny5", sans-serif;
+}
+
+progress {
+   margin-top: 5px;
+   width: 400px;
+   height: 30px;
+   margin-bottom: 20px;
+}
+
+#icons {
+   margin-top: 10px;
+}
