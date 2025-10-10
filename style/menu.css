@@ -1,0 +1,18 @@
+#menu {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 60px 500px 0px 500px ;
+}
+.navegador {
+    font-family: "Pixelify Sans";
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+    background-color: #89e6f785;
+    padding: 20px;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+}
+.navegador:hover {
+    background-color: #187d8f85;
+}
