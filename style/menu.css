@@ -1,7 +1,7 @@
 #menu {
     display: flex;
     justify-content: space-evenly;
-    margin: 60px 500px 0px 500px ;
+    margin: 60px 500px 0px 560px ;
 }
 .navegador {
     font-family: "Pixelify Sans";
@@ -19,6 +19,9 @@
 /* imagens */
 #body1 {
     background-image: url(../midia/mapa1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-size: 200vh;
+    background-position-x: 1vh;
+    background-position-y: -23vh;
 }
+
