@@ -93,9 +93,10 @@ button {
 
 input:focus {
     transition: 0.3s;
-    background-color: aqua;
+    background-color: rgba(38, 139, 109, 0.555);
     outline: none;
-    color: gold;
+    color: rgb(248, 246, 236);
+    font-size: larger;
 }
 
 .titulo {
@@ -104,12 +105,26 @@ input:focus {
 }
 
 @keyframes transformar {
-    0% {opacity: 1; transform: scale(0.6);}
-    10% {opacity: 1; transform: scale(0.8);}
-    30% {opacity: 1; transform: scale(1);}
-    40% {opacity: 1; transform: scale(1.2);}
-    60% {opacity: 1; transform: scale(1);}
-    80% {opacity: 1; transform: scale(0.8);}
-    100% {opacity: 1; transform: scale(0.6);}
+    0% {opacity: 1; transform: scale(0.8);}
+    5% {opacity: 1; transform: scale(0.9);}
+    10% {opacity: 1; transform: scale(1);}
+    15% {opacity: 1; transform: scale(1.05);}
+    20% {opacity: 1; transform: scale(1.1);}
+    25% {opacity: 1; transform: scale(1.15);}
+    30% {opacity: 1; transform: scale(1.2);}
+    35% {opacity: 1; transform: scale(1.25);}
+    40% {opacity: 1; transform: scale(1.3);}
+    45% {opacity: 1; transform: scale(1.35);}
+    50% {opacity: 1; transform: scale(1.4);}
+    55% {opacity: 1; transform: scale(1.35);}
+    60% {opacity: 1; transform: scale(1.3);}
+    65% {opacity: 1; transform: scale(1.25);}
+    70% {opacity: 1; transform: scale(1.2);}
+    75% {opacity: 1; transform: scale(1.15);}
+    80% {opacity: 1; transform: scale(1.1);}
+    85% {opacity: 1; transform: scale(1.05);}
+    90% {opacity: 1; transform: scale(1);}
+    95% {opacity: 1; transform: scale(0.9);}
+    100% {opacity: 1; transform: scale(0.8);}
 
 }
