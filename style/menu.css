@@ -1,0 +1,59 @@
+#menu {
+    background-color: bisque;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 60px 500px 0px 560px ;
+}
+.navegador {
+    font-family: "Pixelify Sans";
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+    background-color: #89e6f785;
+    padding: 20px;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+}
+.navegador:hover {
+    background-color: #187d8f85;
+}
+/* imagens */
+#body1 {
+    /* background-repeat: no-repeat; */
+    background-size: 200vh;
+    background-position-x: 1vh;
+    background-position-y: -23vh;
+}
+#link1 {
+    position: relative;
+    top: 70px;
+    left: 840px;
+    height: 120px;
+    width: 130px;
+    cursor: pointer;
+}
+#link2 {
+    position: relative;
+    top: -50px;
+    left: 1180px;
+    height: 120px;
+    width: 130px;
+    cursor: pointer;
+}
+#link3 {
+    position: relative;
+    top: 140px;
+    left: 1180px;
+    height: 120px;
+    width: 130px;
+    cursor: pointer;
+}
+#link4 {
+    position: relative;
+    top: 300px;
+    left: 1180px;
+    height: 120px;
+    width: 130px;
+    cursor: pointer;
+}
+
