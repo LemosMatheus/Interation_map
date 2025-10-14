@@ -52,7 +52,7 @@
 
 #mapa1 #link1_mapa1 {
     position: relative;
-    top: 220px;
+    top: 190px;
     left: 750px;
     height: 80px;
     width: 100px;
@@ -61,7 +61,7 @@
 
 #mapa1 #link2_mapa1 {
     position: relative;
-    top: 140px;
+    top: 105px;
     left: 890px;
     height: 80px;
     width: 70px;
@@ -70,7 +70,7 @@
 
 #mapa1 #link3_mapa1 {
     position: relative;
-    top: 190px;
+    top: 160px;
     left: 890px;
     height: 90px;
     width: 70px;
@@ -79,7 +79,7 @@
 
 #mapa1 #link4_mapa1 {
     position: relative;
-    top: 230px;
+    top: 200px;
     left: 880px;
     height: 80px;
     width: 80px;
@@ -142,7 +142,84 @@
     top: 48vh;
     cursor: pointer;
 }
-
+#mapa3 {
+    display: flex;
+    position: relative;
+    top: 130vh;
+}
+#mapa3 #personagem_mapa3 {
+    position: absolute;
+    left: 570px;
+    top: 8vh;
+    width: 70px;
+}
+#mapa3 #link1_mapa3{
+    position: relative;
+    height: 10vh;
+    width: 10vh;
+    left: 105vh;
+    top: 8vh;
+    cursor: pointer;
+}
+#mapa3 #link2_mapa3 {
+    position: relative;
+    height: 10vh;
+    width: 10vh;
+    left: 95vh;
+    top: 34vh;
+    cursor: pointer;
+}
+#mapa3 #link3_mapa3 {
+    position: relative;
+    height: 10vh;
+    width: 10vh;
+    left: 86vh;
+    top: 59vh;
+    cursor: pointer;
+}
+#mapa3 #link4_mapa3 {
+    position: relative;
+    height: 10vh;
+    width: 10vh;
+    left: 102vh;
+    top: 59vh;
+    cursor: pointer;
+}
+#mapa4 {
+    display: flex;
+    position: relative;
+    top: 220vh;
+}
+#mapa4 #personagem_mapa4 {
+    position: absolute;
+    left: 77vh;
+    top: 4vh;      
+    width: 9vh;
+}
+#mapa4 #link1_mapa4 {
+    position: relative;
+    height: 10vh;
+    width: 10vh;
+    left: 77vh;
+    top: 37vh;
+    cursor: pointer;
+}
+#mapa4 #link2_mapa4 {
+    position: relative;
+    height: 10vh;
+    width: 10vh;
+    left: 100vh;
+    top: 37vh;
+    cursor: pointer;
+}
+#mapa4 #link3_mapa4 {
+    position: relative;
+    height: 10vh;
+    width: 10vh;
+    left: 90vh;
+    top: 62vh;
+    cursor: pointer;
+}
 /* .animacao_fase1 {
     animation: fase1 4s ;
     animation-iteration-count: 1;
@@ -151,6 +228,8 @@
     animation: fase2 4s;
     animation-iteration-count: 1;
 } */
+
+/*Mapa 1*/
 @keyframes fase1_mapa1 {
     0% {
         left: 630px;
@@ -196,6 +275,8 @@
         bottom: 80px;
     }
 }
+
+/*Mapa 2*/
 @keyframes fase1_mapa2{
     0% {
         left: 75vh;
@@ -234,5 +315,77 @@
     100% {
         left: 123vh;
         top: 47vh;
+    }
+}
+
+/*Mapa 3*/
+@keyframes fase1_mapa3 {
+    0% {
+        left: 570px;
+        top: 8vh;
+    }
+    100% {
+        left: 820px;
+        top: 8vh;
+    }
+}
+@keyframes fase2_mapa3 {
+    0% {
+        left: 820px;
+        top: 8vh;
+    }
+    100% {
+        left: 820px;
+        top: 33vh;
+    }
+}
+@keyframes fase3_mapa3 {
+    0% {
+        left: 820px;
+        top: 33vh;
+    }
+    100% {
+        left: 820px;
+        top: 58vh;
+    }
+}
+@keyframes fase4_mapa3 {
+    0% {
+        left: 820px;
+        top: 58vh;
+    }
+    100% {
+        left: 1025px;
+        top: 58vh;
+    }
+}
+@keyframes fase1_mapa4 {
+    0% {
+        left: 77vh;
+        top: 4vh;   
+    }
+    100% {
+        left: 77vh;
+        top: 35vh;
+    }
+}
+@keyframes fase2_mapa4 {
+    0% {
+        left: 77vh;
+        top: 35vh;
+    }
+    100% {
+        left: 111vh;
+        top: 35vh;
+    }
+}
+@keyframes fase3_mapa4 {
+    0% {
+        left: 111vh;
+        top: 35vh;
+    }
+    100% {
+        left: 111vh;
+        top: 60vh;
     }
 }
