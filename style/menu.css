@@ -114,6 +114,22 @@
     top: 28vh;
     cursor: pointer;
 }
+#mapa2 #link3_mapa2 {
+    position: relative;
+    height: 10vh;
+    width: 10vh;
+    left: 80vh;
+    top: 50vh;
+    cursor: pointer;
+}
+#mapa2 #link4_mapa2 {
+    position: relative;
+    height: 10vh;
+    width: 10vh;
+    left: 92vh;
+    top: 48vh;
+    cursor: pointer;
+}
 
 /* .animacao_fase1 {
     animation: fase1 4s ;
@@ -133,8 +149,8 @@
         bottom: 350px;  
     }
     100% {
+        left: 775px;
         bottom: 350px;
-        left: 780px;
     }
 }
 
@@ -165,7 +181,7 @@
     }
     100% {
         left: 900px;
-        bottom: 100px;
+        bottom: 80px;
     }
 }
 @keyframes fase1_mapa2{
@@ -188,4 +204,23 @@
         top: 28vh;
     }
 }
-
+@keyframes fase3_mapa2 {
+    0% {
+        left: 101vh;
+        top: 28vh;
+    }
+    100% {
+        left: 101vh;
+        top: 47vh;
+    }
+}
+@keyframes fase4_mapa2 {
+    0% {
+        left: 101vh;
+        top: 47vh;
+    }
+    100% {
+        left: 123vh;
+        top: 47vh;
+    }
+}
