@@ -49,7 +49,7 @@
     border-radius: 100%;
 }
 
-#mapa1 #link1 {
+#mapa1 #link1_mapa1 {
     position: relative;
     top: 220px;
     left: 750px;
@@ -58,7 +58,7 @@
     cursor: pointer;
 }
 
-#mapa1 #link2 {
+#mapa1 #link2_mapa1 {
     position: relative;
     top: 140px;
     left: 890px;
@@ -67,7 +67,7 @@
     cursor: pointer;
 }
 
-#mapa1 #link3 {
+#mapa1 #link3_mapa1 {
     position: relative;
     top: 190px;
     left: 890px;
@@ -76,7 +76,7 @@
     cursor: pointer;
 }
 
-#mapa1 #link4 {
+#mapa1 #link4_mapa1 {
     position: relative;
     top: 230px;
     left: 880px;
@@ -91,14 +91,11 @@
     width: 700px;
     height: 550px;
 }
-#mapa1 #personagem {
+#mapa1 #personagem_mapa1 {
     position: absolute;
-    /* left: 630px;
+    left: 630px;
     bottom: 400px;       
-    width: 70px; */
-    left: 70vh;
-    bottom: 44vh;       
-    width: 9vh;
+    width: 70px;
     /* transition: transform 0.5s ease; */
 }
 #mapa2 {
@@ -106,18 +103,26 @@
     position: relative;
     top: 50vh;
 }
-#mapa2 #personagem {
+#mapa2 #personagem_mapa2 {
     position: absolute;
-    left: 81vh;
-    top: 17vh;      
+    left: 75vh;
+    top: 8vh;      
     width: 9vh;
 }
-#mapa2 #link1 {
+#mapa2 #link1_mapa2 {
     position: relative;
     height: 10vh;
     width: 10vh;
     left: 99vh;
-    top: 25vh;
+    top: 10vh;
+    cursor: pointer;
+}
+#mapa2 #link2_mapa2 {
+    position: relative;
+    height: 10vh;
+    width: 10vh;
+    left: 91vh;
+    top: 28vh;
     cursor: pointer;
 }
 
@@ -129,8 +134,7 @@
     animation: fase2 4s;
     animation-iteration-count: 1;
 } */
-
-@keyframes fase1 {
+@keyframes fase1_mapa1 {
     0% {
         left: 630px;
         bottom: 400px;      
@@ -145,7 +149,7 @@
     }
 }
 
-@keyframes fase2 {
+@keyframes fase2_mapa1 {
     0% {
         left: 780px;
         bottom: 350px;
@@ -155,7 +159,7 @@
         bottom: 350px;
     }
 }
-@keyframes fase3 {
+@keyframes fase3_mapa1 {
     0% {
         left: 900px;
         bottom: 350px;
@@ -165,7 +169,7 @@
         bottom: 200px;
     }
 }
-@keyframes fases4 {
+@keyframes fase4_mapa1 {
     0% {
         left: 900px;
         bottom: 200px;
@@ -173,6 +177,26 @@
     100% {
         left: 900px;
         bottom: 100px;
+    }
+}
+@keyframes fase1_mapa2{
+    0% {
+        left: 75vh;
+        top: 8vh;
+    }
+    100% {
+        left: 101vh;
+        top: 8vh;
+    }
+}
+@keyframes fase2_mapa2 {
+    0% {
+        left: 101vh;
+        top: 8vh;
+    }
+    100% {
+        left: 101vh;
+        top: 28vh;
     }
 }
 
