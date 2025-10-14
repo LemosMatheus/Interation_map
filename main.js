@@ -5,12 +5,17 @@ const link4 = document.getElementById("link4")
 const perso = document.getElementById("personagem")
 let fases = 0
 link1.addEventListener("click", ()=> {perso.style.animation = "fase1 4s ease forwards"; fases++})
-// link1.addEventListener("click", () => {window.open("index.html", "_blank"); })
-perso.addEventListener("animationend",()=> {window.open("index.html", "_blank")})
-link1.addEventListener("click", ()=> perso.classList.remove("animacao_fase1"))
-link2.addEventListener("click", ()=> window.open("index.html", "_blank"))
-link3.addEventListener("click", ()=> window.open("index.html", "_blank"))
-link4.addEventListener("click", ()=> window.open("index.html", "_blank"))
+link1.addEventListener("dblclick",()=> {window.open("index.html", "_blank")})
+// link1.addEventListener("click", ()=> perso.classList.remove("animacao_fase1"))
+
+link2.addEventListener("click", ()=> perso.style.animation = "fase2 4s ease forwards")
+link2.addEventListener("dblclick", ()=> window.open("index.html", "_blank"))
+
+link3.addEventListener("click", ()=> perso.style.animation = "fase3 4s ease forwards")
+link3.addEventListener("dblclick", ()=> window.open("index.html", "_blank"))
+
+link4.addEventListener("click", ()=> perso.style.animation = "fases4 4s ease forwads")
+link4.addEventListener("dblclick", ()=> window.open("index.html", "_blank"))
 // const nome = localStorage.getItem('armazem')
 // document.getElementById('is').innerText = nome
 console.log(fases)
