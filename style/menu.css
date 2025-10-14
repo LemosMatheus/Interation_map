@@ -1,16 +1,17 @@
 #menu {
     display: flex;
     justify-content: space-evenly;
-    margin: 60px 500px 0px 560px;
-    margin-bottom: 130px;
+    margin: 0px 500px 0px 560px;
 }
 
 #login {
     display: flex;
     justify-content: flex-end;
     position: relative;
-    bottom: 210px;
+    bottom: 85px;
     right: 50px;
+    height: 80px;
+    
 }
 
 .navegador {
