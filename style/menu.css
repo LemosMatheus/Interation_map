@@ -42,6 +42,11 @@
     background-size: 200vh;
     background-position-x: 1vh;
     background-position-y: -23vh;
+    background-image: url(/midia/login_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 #menu img {
