@@ -1,3 +1,9 @@
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+ }
+
 #menu {
     display: flex;
     justify-content: space-evenly;
@@ -8,10 +14,11 @@
     display: flex;
     justify-content: flex-end;
     position: relative;
+    z-index: -1;
     bottom: 85px;
     right: 50px;
     height: 80px;
-    
+    background-color: aliceblue;
 }
 
 .navegador {
