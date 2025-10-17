@@ -24,7 +24,7 @@ const perso4 = document.getElementById("personagem_mapa4")
 
 let fases = 0
 //MAPA 1
-link1.addEventListener("click", ()=> {perso1.style.animation = "fase1_mapa1 4s ease forwards"; fases++})
+link1.addEventListener("click", ()=> {perso1.style.animation = "fase1_mapa1 4s ease forwards"; fases++; link1.style.filter = "brightness(75%)"})
 link1.addEventListener("dblclick",()=> {window.open("index.html", "_blank")})
 // link1.addEventListener("click", ()=> perso.classList.remove("animacao_fase1"))
 

@@ -63,38 +63,60 @@
 }
 
 #mapa1 #link1_mapa1 {
+    background-image: url(/midia/accepted.png);
+    background-size: cover;
+    background-position: center;
     position: relative;
     top: 190px;
-    left: 750px;
-    height: 80px;
+    /* left: 750px;
+    height: 80px; */
+    height: 100px;
+    left: 755px;
     width: 100px;
     cursor: pointer;
 }
 
 #mapa1 #link2_mapa1 {
+    background-image: url(/midia/rejected.png);
+    background-size: cover;
+    background-position: center;
     position: relative;
-    top: 105px;
+    /* top: 105px;
     left: 890px;
     height: 80px;
-    width: 70px;
+    width: 70px; */
+    top: 90px;
+    left: 880px;
+    height: 100px;
+    width: 100px;
     cursor: pointer;
 }
 
 #mapa1 #link3_mapa1 {
+    background-image: url(/midia/rejected.png);
+    background-size: cover;
+    background-position: center;
     position: relative;
-    top: 160px;
+    /* top: 160px;
     left: 890px;
     height: 90px;
-    width: 70px;
+    width: 70px; */
+    top: 120px;
+    left: 880px;
+    height: 100px;
+    width: 100px;
     cursor: pointer;
 }
 
 #mapa1 #link4_mapa1 {
+    background-image: url(/midia/rejected.png);
+    background-size: cover;
+    background-position: center;
     position: relative;
-    top: 200px;
+    top: 150px;
     left: 880px;
-    height: 80px;
-    width: 80px;
+    height: 100px;
+    width: 100px;
     cursor: pointer;
 }
 #mapa {
