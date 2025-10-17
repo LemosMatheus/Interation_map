@@ -63,7 +63,7 @@
 }
 
 #mapa1 #link1_mapa1 {
-    background-image: url(/midia/accepted.png);
+    background-image: url(/midia/upscalemedia-transformed.png);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -71,13 +71,13 @@
     /* left: 750px;
     height: 80px; */
     height: 100px;
-    left: 755px;
+    left: 760px;
     width: 100px;
     cursor: pointer;
 }
 
 #mapa1 #link2_mapa1 {
-    background-image: url(/midia/rejected.png);
+    background-image: url(/midia/kathryn-raccuglia-smb-dc-2023-assets-map-icon-removebg-preview.png);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -86,14 +86,14 @@
     height: 80px;
     width: 70px; */
     top: 90px;
-    left: 880px;
-    height: 100px;
-    width: 100px;
+    left: 890px;
+    height: 90px;
+    width: 90px;
     cursor: pointer;
 }
 
 #mapa1 #link3_mapa1 {
-    background-image: url(/midia/rejected.png);
+    background-image: url(/midia/kathryn-raccuglia-smb-dc-2023-assets-map-icon-removebg-preview.png);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -101,22 +101,22 @@
     left: 890px;
     height: 90px;
     width: 70px; */
-    top: 120px;
-    left: 880px;
-    height: 100px;
-    width: 100px;
+    top: 135px;
+    left: 890px;
+    height: 90px;
+    width: 90px;
     cursor: pointer;
 }
 
 #mapa1 #link4_mapa1 {
-    background-image: url(/midia/rejected.png);
+    background-image: url(/midia/kathryn-raccuglia-smb-dc-2023-assets-map-icon-removebg-preview.png);
     background-size: cover;
     background-position: center;
     position: relative;
-    top: 150px;
-    left: 880px;
-    height: 100px;
-    width: 100px;
+    top: 175px;
+    left: 890px;
+    height: 90px;
+    width: 90px;
     cursor: pointer;
 }
 #mapa {
@@ -145,35 +145,47 @@
     width: 9vh;
 }
 #mapa2 #link1_mapa2 {
+    background-image: url(/midia/upscalemedia-transformed.png);
+    background-size: cover;
+    background-position: center;
     position: relative;
     height: 10vh;
     width: 10vh;
     left: 99vh;
-    top: 10vh;
+    top: 8vh;
     cursor: pointer;
 }
 #mapa2 #link2_mapa2 {
+    background-image: url(/midia/kathryn-raccuglia-smb-dc-2023-assets-map-icon-removebg-preview.png);
+    background-size: cover;
+    background-position: center;
     position: relative;
     height: 10vh;
     width: 10vh;
-    left: 91vh;
+    left: 90vh;
     top: 28vh;
     cursor: pointer;
 }
 #mapa2 #link3_mapa2 {
+    background-image: url(/midia/kathryn-raccuglia-smb-dc-2023-assets-map-icon-removebg-preview.png);
+    background-size: cover;
+    background-position: center;
     position: relative;
     height: 10vh;
     width: 10vh;
     left: 80vh;
-    top: 50vh;
+    top: 48vh;
     cursor: pointer;
 }
 #mapa2 #link4_mapa2 {
+    background-image: url(/midia/kathryn-raccuglia-smb-dc-2023-assets-map-icon-removebg-preview.png);
+    background-size: cover;
+    background-position: center;
     position: relative;
     height: 10vh;
     width: 10vh;
-    left: 92vh;
-    top: 48vh;
+    left: 91vh;
+    top: 47vh;
     cursor: pointer;
 }
 #mapa3 {
@@ -188,6 +200,9 @@
     width: 70px;
 }
 #mapa3 #link1_mapa3{
+    background-image: url(/midia/upscalemedia-transformed.png);
+    background-size: cover;
+    background-position: center;
     position: relative;
     height: 10vh;
     width: 10vh;
@@ -196,27 +211,36 @@
     cursor: pointer;
 }
 #mapa3 #link2_mapa3 {
+    background-image: url(/midia/kathryn-raccuglia-smb-dc-2023-assets-map-icon-removebg-preview.png);
+    background-size: cover;
+    background-position: center;
     position: relative;
     height: 10vh;
     width: 10vh;
     left: 95vh;
-    top: 34vh;
+    top: 32vh;
     cursor: pointer;
 }
 #mapa3 #link3_mapa3 {
+    background-image: url(/midia/kathryn-raccuglia-smb-dc-2023-assets-map-icon-removebg-preview.png);
+    background-size: cover;
+    background-position: center;
     position: relative;
     height: 10vh;
     width: 10vh;
-    left: 86vh;
-    top: 59vh;
+    left: 85vh;
+    top: 58vh;
     cursor: pointer;
 }
 #mapa3 #link4_mapa3 {
+    background-image: url(/midia/kathryn-raccuglia-smb-dc-2023-assets-map-icon-removebg-preview.png);
+    background-size: cover;
+    background-position: center;
     position: relative;
     height: 10vh;
     width: 10vh;
-    left: 102vh;
-    top: 59vh;
+    left: 101vh;
+    top: 58vh;
     cursor: pointer;
 }
 #mapa4 {
@@ -231,6 +255,9 @@
     width: 9vh;
 }
 #mapa4 #link1_mapa4 {
+    background-image: url(/midia/upscalemedia-transformed.png);
+    background-size: cover;
+    background-position: center;
     position: relative;
     height: 10vh;
     width: 10vh;
@@ -239,19 +266,25 @@
     cursor: pointer;
 }
 #mapa4 #link2_mapa4 {
+    background-image: url(/midia/kathryn-raccuglia-smb-dc-2023-assets-map-icon-removebg-preview.png);
+    background-size: cover;
+    background-position: center;
     position: relative;
     height: 10vh;
     width: 10vh;
-    left: 100vh;
+    left: 98vh;
     top: 37vh;
     cursor: pointer;
 }
 #mapa4 #link3_mapa4 {
+    background-image: url(/midia/kathryn-raccuglia-smb-dc-2023-assets-map-icon-removebg-preview.png);
+    background-size: cover;
+    background-position: center;
     position: relative;
     height: 10vh;
     width: 10vh;
-    left: 90vh;
-    top: 62vh;
+    left: 91vh;
+    top: 60vh;
     cursor: pointer;
 }
 /* .animacao_fase1 {

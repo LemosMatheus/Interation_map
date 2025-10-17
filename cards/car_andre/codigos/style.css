@@ -8,7 +8,7 @@ h2, h1, h3, h4 {
     font-size: 16px;
 }
 progress {
-    width: 85vh;
+    width: 70vh;
     height: 6vh;
 }
 #titulo {
@@ -51,6 +51,8 @@ div {
     margin-bottom: 10vh;
 }
 img {
+    position: relative;
+    left: -8vh;
     height: 150px;
 }
 #xp {
@@ -85,7 +87,7 @@ img {
     background-color: #6F584B;
     /* padding-right: 70px;
     padding-left: 70px; */
-    padding: 10px 90px 10px 90px;
+    padding: 10px 15px 10px 15px;
     border-radius: 15px;
     color: white;
 }
@@ -96,11 +98,12 @@ img {
     background-color: #978d6d;
     background-color: #778DA9;
 }
-#codigo {
+#imagens #codigo {
     position: relative;
     height: 100px;
     width: 100px;
-    top: -5%;
+    top: -10%;
+    margin-bottom: 20px;
 }
 #img_perso {
     height: 30vh;
@@ -112,4 +115,9 @@ img {
 }
 #info h4,label {
     font-size: 20px;
+}
+#imagens {
+    position: relative;
+    right: -10%;
+    top: -5%;    
 }
