@@ -3,7 +3,6 @@
     margin: 0;
     box-sizing: content-box;
  }
-
 #menu {
     display: flex;
     justify-content: space-evenly;
@@ -19,9 +18,24 @@
     right: 50px;
     height: 80px;
     background-color: aliceblue;
+    margin-bottom: 3%;
 }
 
-
+#Bmap3, #Bmap4, #Bmap2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Bmap2 {
+    margin-top: -20%;
+}
+#Bmap3 {
+    margin-top: 20%;
+}
+#Bmap4 {
+    margin-top: 65%;
+}
 .navegador {
     font-family: "Pixelify Sans";
     font-size: 17px;
@@ -66,13 +80,12 @@ section {
     height: 50px;
     border-radius: 100%;
 }
-
 #mapa1 #link1_mapa1 {
     background-image: url(/midia/upscalemedia-transformed.png);
     background-size: cover;
     background-position: center;
     position: relative;
-    top: 190px;
+    top: 130px;
     /* left: 750px;
     height: 80px; */
     height: 100px;
@@ -90,7 +103,7 @@ section {
     left: 890px;
     height: 80px;
     width: 70px; */
-    top: 90px;
+    top: 20px;
     left: 890px;
     height: 90px;
     width: 90px;
@@ -106,7 +119,7 @@ section {
     left: 890px;
     height: 90px;
     width: 70px; */
-    top: 135px;
+    top: 40px;
     left: 890px;
     height: 90px;
     width: 90px;
@@ -118,7 +131,7 @@ section {
     background-size: cover;
     background-position: center;
     position: relative;
-    top: 175px;
+    top: 60px;
     left: 890px;
     height: 90px;
     width: 90px;
@@ -126,10 +139,10 @@ section {
 }
 .mapa {
     position: absolute;
-    top: 25%;
-    left: 30%;
     width: 700px;
-    height: 550px;
+    /* top: -25%; */
+    left: 30%;
+    /* height: 550px;  */
 }
 #mapa1 #personagem_mapa1 {
     position: absolute;
@@ -146,7 +159,7 @@ section {
 #mapa2 #personagem_mapa2 {
     position: absolute;
     left: 75vh;
-    top: 8vh;      
+    top: 3vh;      
     width: 9vh;
 }
 #mapa2 #link1_mapa2 {
@@ -156,8 +169,8 @@ section {
     position: relative;
     height: 10vh;
     width: 10vh;
-    left: 99vh;
-    top: 8vh;
+    left: 100vh;
+    top: 5vh;
     cursor: pointer;
 }
 #mapa2 #link2_mapa2 {
@@ -168,7 +181,7 @@ section {
     height: 10vh;
     width: 10vh;
     left: 90vh;
-    top: 28vh;
+    top: 20vh;
     cursor: pointer;
 }
 #mapa2 #link3_mapa2 {
@@ -179,7 +192,7 @@ section {
     height: 10vh;
     width: 10vh;
     left: 80vh;
-    top: 48vh;
+    top: 36vh;
     cursor: pointer;
 }
 #mapa2 #link4_mapa2 {
@@ -190,7 +203,7 @@ section {
     height: 10vh;
     width: 10vh;
     left: 91vh;
-    top: 47vh;
+    top: 35vh;
     cursor: pointer;
 }
 #mapa3 {
@@ -201,7 +214,7 @@ section {
 #mapa3 #personagem_mapa3 {
     position: absolute;
     left: 570px;
-    top: 8vh;
+    top: 4vh;
     width: 70px;
 }
 #mapa3 #link1_mapa3{
@@ -212,7 +225,7 @@ section {
     height: 10vh;
     width: 10vh;
     left: 105vh;
-    top: 8vh;
+    top: 4vh;
     cursor: pointer;
 }
 #mapa3 #link2_mapa3 {
@@ -223,7 +236,7 @@ section {
     height: 10vh;
     width: 10vh;
     left: 95vh;
-    top: 32vh;
+    top: 25vh;
     cursor: pointer;
 }
 #mapa3 #link3_mapa3 {
@@ -234,7 +247,7 @@ section {
     height: 10vh;
     width: 10vh;
     left: 85vh;
-    top: 58vh;
+    top: 45vh;
     cursor: pointer;
 }
 #mapa3 #link4_mapa3 {
@@ -245,7 +258,7 @@ section {
     height: 10vh;
     width: 10vh;
     left: 101vh;
-    top: 58vh;
+    top: 45vh;
     cursor: pointer;
 }
 #mapa4 {
@@ -256,7 +269,7 @@ section {
 #mapa4 #personagem_mapa4 {
     position: absolute;
     left: 77vh;
-    top: 4vh;      
+    top: 2vh;      
     width: 9vh;
 }
 #mapa4 #link1_mapa4 {
@@ -267,7 +280,7 @@ section {
     height: 10vh;
     width: 10vh;
     left: 77vh;
-    top: 37vh;
+    top: 27vh;
     cursor: pointer;
 }
 #mapa4 #link2_mapa4 {
@@ -278,7 +291,7 @@ section {
     height: 10vh;
     width: 10vh;
     left: 98vh;
-    top: 37vh;
+    top: 27vh;
     cursor: pointer;
 }
 #mapa4 #link3_mapa4 {
@@ -289,7 +302,7 @@ section {
     height: 10vh;
     width: 10vh;
     left: 91vh;
-    top: 60vh;
+    top: 46vh;
     cursor: pointer;
 }
 /* .animacao_fase1 {
