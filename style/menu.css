@@ -35,6 +35,7 @@
 }
 #Bmap4 {
     margin-top: 65%;
+    display: none;
 }
 .navegador {
     font-family: "Pixelify Sans";
@@ -322,42 +323,42 @@ section {
     }
     50% {
         left: 630px;
-        bottom: 350px;  
+        bottom: 370px;  
     }
     100% {
         left: 775px;
-        bottom: 350px;
+        bottom: 370px;
     }
 }
 
 @keyframes fase2_mapa1 {
     0% {
         left: 780px;
-        bottom: 350px;
+        bottom: 370px;
     }
     100% {
         left: 900px;
-        bottom: 350px;
+        bottom: 370px;
     }
 }
 @keyframes fase3_mapa1 {
     0% {
         left: 900px;
-        bottom: 350px;
+        bottom: 370px;
     }
     100% {
         left: 900px;
-        bottom: 200px;
+        bottom: 250px;
     }
 }
 @keyframes fase4_mapa1 {
     0% {
         left: 900px;
-        bottom: 200px;
+        bottom: 250px;
     }
     100% {
         left: 900px;
-        bottom: 80px;
+        bottom: 140px;
     }
 }
 
@@ -365,41 +366,41 @@ section {
 @keyframes fase1_mapa2{
     0% {
         left: 75vh;
-        top: 8vh;
+        top: 3vh;
     }
     100% {
         left: 101vh;
-        top: 8vh;
+        top: 3vh;
     }
 }
 @keyframes fase2_mapa2 {
     0% {
         left: 101vh;
-        top: 8vh;
+        top: 3vh;
     }
     100% {
         left: 101vh;
-        top: 28vh;
+        top: 19vh;
     }
 }
 @keyframes fase3_mapa2 {
     0% {
         left: 101vh;
-        top: 28vh;
+        top: 19vh;
     }
     100% {
         left: 101vh;
-        top: 47vh;
+        top: 34vh;
     }
 }
 @keyframes fase4_mapa2 {
     0% {
         left: 101vh;
-        top: 47vh;
+        top: 34vh;
     }
     100% {
         left: 123vh;
-        top: 47vh;
+        top: 32vh;
     }
 }
 
@@ -407,71 +408,71 @@ section {
 @keyframes fase1_mapa3 {
     0% {
         left: 570px;
-        top: 8vh;
+        top: 4vh;
     }
     100% {
         left: 820px;
-        top: 8vh;
+        top: 4vh;
     }
 }
 @keyframes fase2_mapa3 {
     0% {
         left: 820px;
-        top: 8vh;
+        top: 4vh;
     }
     100% {
         left: 820px;
-        top: 33vh;
+        top: 25vh;
     }
 }
 @keyframes fase3_mapa3 {
     0% {
         left: 820px;
-        top: 33vh;
+        top: 25vh;
     }
     100% {
         left: 820px;
-        top: 58vh;
+        top: 44vh;
     }
 }
 @keyframes fase4_mapa3 {
     0% {
         left: 820px;
-        top: 58vh;
+        top: 44vh;
     }
     100% {
         left: 1025px;
-        top: 58vh;
+        top: 44vh;
     }
 }
 /*Mapa 4*/
 @keyframes fase1_mapa4 {
     0% {
         left: 77vh;
-        top: 4vh;   
+        top: 2vh;   
     }
     100% {
         left: 77vh;
-        top: 35vh;
+        top: 25vh;
     }
 }
 @keyframes fase2_mapa4 {
     0% {
         left: 77vh;
-        top: 35vh;
+        top: 25vh;
     }
     100% {
         left: 111vh;
-        top: 35vh;
+        top: 25vh;
     }
 }
 @keyframes fase3_mapa4 {
     0% {
         left: 111vh;
-        top: 35vh;
+        top: 25vh;
     }
     100% {
         left: 111vh;
-        top: 60vh;
+        top: 45vh;
     }
 }

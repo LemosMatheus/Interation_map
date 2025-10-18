@@ -71,7 +71,7 @@ link4_mapa3.addEventListener("click", ()=> {perso3.style.animation = "fase4_mapa
 link4_mapa3.addEventListener("dblclick", ()=> {window.open("index.html", "_blank"); bmap4.style.display = "none"})
 
 //MAPA4
-link1_mapa4.addEventListener("click", ()=> {perso4.style.animation = "fase1_mapa4 4s ease forwards"; link1_mapa4.style.filter = "brightness(75%)"; link2_mapa4.style.backgroundImage = "url(/midia/upscalemedia-transformed.png)"})
+link1_mapa4.addEventListener("click", ()=> {perso4.style.animation = "fase1_mapa4 4s ease forwards"; link1_mapa4.style.filter = "brightness(75%)"; link2_mapa4.style.backgroundImage = "url(/midia/upscalemedia-transformed.png)"; link2_mapa4.style.left = "100vh"})
 link1_mapa4.addEventListener("dblclick", ()=> window.open("index.html", "_blank"))
 
 link2_mapa4.addEventListener("click", ()=> {perso4.style.animation = "fase2_mapa4 4s ease forwards"; link2_mapa4.style.filter = "brightness(75%)"; link3_mapa4.style.backgroundImage = "url(/midia/upscalemedia-transformed.png)"})
