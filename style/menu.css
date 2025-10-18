@@ -8,17 +8,24 @@
     justify-content: space-evenly;
     margin: 0px 500px 0px 560px;
 }
-
 #login {
     display: flex;
     justify-content: flex-end;
     position: relative;
-    z-index: -1;
-    bottom: 85px;
+    /* z-index: -1;
+    bottom: 85px; */
     right: 50px;
     height: 80px;
     background-color: aliceblue;
     margin-bottom: 3%;
+    margin-left: -200px;
+}
+header {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 70px;
 }
 
 #Bmap3, #Bmap4, #Bmap2 {
