@@ -349,47 +349,47 @@ section {
 /*Mapa 1*/
 @keyframes fase1_mapa1 {
     0% {
-        left: 630px;
-        bottom: 400px;      
+        left: 720px;
+        bottom: 600px;          
     }
     50% {
-        left: 630px;
-        bottom: 370px;  
+        left: 720px;
+        bottom: 570px;  
     }
     100% {
-        left: 775px;
-        bottom: 370px;
+        left: 870px;
+        bottom: 570px;
     }
 }
 
 @keyframes fase2_mapa1 {
     0% {
-        left: 780px;
-        bottom: 370px;
+        left: 870px;
+        bottom: 570px;
     }
     100% {
-        left: 900px;
-        bottom: 370px;
+        left: 990px;
+        bottom: 570px;
     }
 }
 @keyframes fase3_mapa1 {
     0% {
-        left: 900px;
-        bottom: 370px;
+        left: 990px;
+        bottom: 570px;
     }
     100% {
-        left: 900px;
-        bottom: 250px;
+        left: 990px;
+        bottom: 450px;
     }
 }
 @keyframes fase4_mapa1 {
     0% {
-        left: 900px;
-        bottom: 250px;
+        left: 990px;
+        bottom: 450px;
     }
     100% {
-        left: 900px;
-        bottom: 140px;
+        left: 990px;
+        bottom: 350px;
     }
 }
 
