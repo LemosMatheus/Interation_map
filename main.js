@@ -68,7 +68,7 @@ link4_mapa2.addEventListener("click", ()=> {perso2.style.animation = "fase4_mapa
 link4_mapa2.addEventListener("dblclick", ()=> {window.open("generic.html", "_blank"); bmap3.style.display = "none"; mapa3.style.visibility = "visible"})
 
 //MAPA3
-link1_mapa3.addEventListener("click", ()=> {perso3.style.animation = "fase1_mapa3 4s ease forwards"; link1_mapa3.style.filter = "brightness(75%)"; link2_mapa3.style.backgroundImage = "url(/midia/upscalemedia-transformed.png)"})
+link1_mapa3.addEventListener("click", ()=> {perso3.style.animation = "fase1_mapa3 4s ease forwards"; link1_mapa3.style.filter = "brightness(75%)"; link2_mapa3.style.backgroundImage = "url(/midia/upscalemedia-transformed.png)"; link2_mapa3.style.top = '20vh'})
 link1_mapa3.addEventListener("dblclick", ()=> window.open("generic.html", "_blank"))
 
 link2_mapa3.addEventListener("click", ()=> {perso3.style.animation = "fase2_mapa3 4s ease forwards"; link2_mapa3.style.filter = "brightness(75%)"; link3_mapa3.style.backgroundImage = "url(/midia/upscalemedia-transformed.png)"})
@@ -81,7 +81,7 @@ link4_mapa3.addEventListener("click", ()=> {perso3.style.animation = "fase4_mapa
 link4_mapa3.addEventListener("dblclick", ()=> {window.open("generic.html", "_blank"); bmap4.style.display = "none";mapa4.style.visibility = "visible"})
 
 //MAPA4
-link1_mapa4.addEventListener("click", ()=> {perso4.style.animation = "fase1_mapa4 4s ease forwards"; link1_mapa4.style.filter = "brightness(75%)"; link2_mapa4.style.backgroundImage = "url(/midia/upscalemedia-transformed.png)"; link2_mapa4.style.left = "100vh"})
+link1_mapa4.addEventListener("click", ()=> {perso4.style.animation = "fase1_mapa4 4s ease forwards"; link1_mapa4.style.filter = "brightness(75%)"; link2_mapa4.style.backgroundImage = "url(/midia/upscalemedia-transformed.png)"; link2_mapa4.style.left = "90vh"})
 link1_mapa4.addEventListener("dblclick", ()=> window.open("generic.html", "_blank"))
 
 link2_mapa4.addEventListener("click", ()=> {perso4.style.animation = "fase2_mapa4 4s ease forwards"; link2_mapa4.style.filter = "brightness(75%)"; link3_mapa4.style.backgroundImage = "url(/midia/upscalemedia-transformed.png)"})
