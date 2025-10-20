@@ -67,7 +67,9 @@ header {
     align-content: center;
 }
 
-
+h1 {
+    font-family: "Pixelify Sans";
+}
 
 /* imagens */
 
@@ -81,6 +83,7 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+    scroll-behavior: smooth;
 }
 
 #mapa1 {

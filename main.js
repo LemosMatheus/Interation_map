@@ -1,3 +1,6 @@
+let nome = localStorage.getItem("armazem")
+document.getElementById("texto").innerHTML = `Bem vindo, ${nome}`
+
 const link1 = document.getElementById("link1_mapa1")
 const link2 = document.getElementById("link2_mapa1")
 const link3 = document.getElementById("link3_mapa1")
