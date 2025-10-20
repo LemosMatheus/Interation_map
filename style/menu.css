@@ -32,7 +32,11 @@ header {
     position: fixed;
     z-index: 3;
 }
-
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 #Bmap3, #Bmap4, #Bmap2 {
     position: relative;
     display: flex;
@@ -87,9 +91,15 @@ h1 {
 }
 
 #mapa1 {
-    padding-top: 200px;
+    position: relative;
+    padding-top: 400px;
+    padding-left: 90px;
 }
-
+/* #mapa1 #personagem_mapa1 {
+    position: relative;
+    top: 42%;
+    margin-left: 5%;
+} */
 section {
     height: 80vh;
 }
@@ -165,8 +175,8 @@ section {
 }
 #mapa1 #personagem_mapa1 {
     position: absolute;
-    left: 630px;
-    bottom: 400px;       
+    left: 720px;
+    bottom: 600px;       
     width: 70px;
     /* transition: transform 0.5s ease; */
 }
@@ -178,8 +188,8 @@ section {
 }
 #mapa2 #personagem_mapa2 {
     position: absolute;
-    left: 75vh;
-    top: 3vh;      
+    left: 70vh;
+    top: 1vh;      
     width: 9vh;
 }
 #mapa2 #link1_mapa2 {
@@ -189,8 +199,8 @@ section {
     position: relative;
     height: 10vh;
     width: 10vh;
-    left: 100vh;
-    top: 5vh;
+    left: 91vh;
+    top: 3vh;
     cursor: pointer;
 }
 #mapa2 #link2_mapa2 {
@@ -200,8 +210,8 @@ section {
     position: relative;
     height: 10vh;
     width: 10vh;
-    left: 90vh;
-    top: 20vh;
+    left: 81vh;
+    top: 15vh;
     cursor: pointer;
 }
 #mapa2 #link3_mapa2 {
@@ -211,8 +221,8 @@ section {
     position: relative;
     height: 10vh;
     width: 10vh;
-    left: 80vh;
-    top: 36vh;
+    left: 72vh;
+    top: 29vh;
     cursor: pointer;
 }
 #mapa2 #link4_mapa2 {
@@ -222,8 +232,8 @@ section {
     position: relative;
     height: 10vh;
     width: 10vh;
-    left: 91vh;
-    top: 35vh;
+    left: 79vh;
+    top: 28vh;
     cursor: pointer;
 }
 #mapa3 {
@@ -234,8 +244,8 @@ section {
 }
 #mapa3 #personagem_mapa3 {
     position: absolute;
-    left: 570px;
-    top: 4vh;
+    left: 670px;
+    top: 3vh;
     width: 70px;
 }
 #mapa3 #link1_mapa3{
@@ -245,8 +255,8 @@ section {
     position: relative;
     height: 10vh;
     width: 10vh;
-    left: 105vh;
-    top: 4vh;
+    left: 95vh;
+    top: 3vh;
     cursor: pointer;
 }
 #mapa3 #link2_mapa3 {
@@ -256,8 +266,8 @@ section {
     position: relative;
     height: 10vh;
     width: 10vh;
-    left: 95vh;
-    top: 25vh;
+    left: 85vh;
+    top: 19vh;
     cursor: pointer;
 }
 #mapa3 #link3_mapa3 {
@@ -267,8 +277,8 @@ section {
     position: relative;
     height: 10vh;
     width: 10vh;
-    left: 85vh;
-    top: 45vh;
+    left: 76vh;
+    top: 36vh;
     cursor: pointer;
 }
 #mapa3 #link4_mapa3 {
@@ -278,8 +288,8 @@ section {
     position: relative;
     height: 10vh;
     width: 10vh;
-    left: 101vh;
-    top: 45vh;
+    left: 87vh;
+    top: 36vh;
     cursor: pointer;
 }
 #mapa4 {
@@ -290,7 +300,7 @@ section {
 }
 #mapa4 #personagem_mapa4 {
     position: absolute;
-    left: 77vh;
+    left: 72vh;
     top: 2vh;      
     width: 9vh;
 }
@@ -301,8 +311,8 @@ section {
     position: relative;
     height: 10vh;
     width: 10vh;
-    left: 77vh;
-    top: 27vh;
+    left: 72vh;
+    top: 22vh;
     cursor: pointer;
 }
 #mapa4 #link2_mapa4 {
@@ -312,8 +322,8 @@ section {
     position: relative;
     height: 10vh;
     width: 10vh;
-    left: 98vh;
-    top: 27vh;
+    left: 88vh;
+    top: 22vh;
     cursor: pointer;
 }
 #mapa4 #link3_mapa4 {
@@ -323,8 +333,8 @@ section {
     position: relative;
     height: 10vh;
     width: 10vh;
-    left: 91vh;
-    top: 46vh;
+    left: 80vh;
+    top: 37vh;
     cursor: pointer;
 }
 /* .animacao_fase1 {
