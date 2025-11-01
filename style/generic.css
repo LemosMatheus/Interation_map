@@ -80,3 +80,7 @@ h3 {
    height: 7vh;
 
 }
+
+.ativo {
+   border: 5px #eaf54e solid;
+}
