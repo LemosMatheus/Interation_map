@@ -72,15 +72,39 @@ h3 {
    border-bottom-left-radius: 20px;
    border-bottom-right-radius: 20px;
    margin-bottom: 10vh;
+  font-family: "Jacquard 12", system-ui;
 }
 
 .questao {
    margin: 20px;
    width: 50vw;
    height: 7vh;
+   background: repeating-linear-gradient(75deg,#5d5d63af, #807d7d, #4b4949);
+   font-family: "Jacquard 12", system-ui;
 
 }
 
 .ativo {
-   border: 5px #eaf54e solid;
+   border: 10px #c1ce0be0 double;
+}
+
+#conferir {
+   transition: 0.3s;
+   margin-top: 50px;
+   border: none;
+   border-radius: 2px;
+   width: 150px;
+   height: 50px;
+   font-family: "Jacquard 12", system-ui;
+   color: #c95d2b;
+   background-color: #f8ecddde;
+}
+
+#conferir:hover {
+   transition: 0.3s;
+   transform: scale(1.2);
+}
+
+.errada {
+   display: none;
 }

@@ -5,4 +5,4 @@ function armazenar() {
 
 const btn = document.getElementById("btn")
 
-btn.addEventListener("click",()=> {window.open("principal.html")})
+btn.addEventListener("click",()=> {window.location.href = "principal.html"})
