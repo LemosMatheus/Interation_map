@@ -197,7 +197,7 @@ link4_mapa3.addEventListener("dblclick", ()=> {
         certa: "alt1" 
     }
     localStorage.setItem('info', JSON.stringify(conteudo));
-     bmap4.style.display = "none";mapa4.style.visibility = "visible"})
+     Bmap4.style.display = "none";mapa4.style.visibility = "visible"})
 
 //MAPA4
 link1_mapa4.addEventListener("click", ()=> {perso4.style.animation = "fase1_mapa4 4s ease forwards"; link1_mapa4.style.filter = "brightness(75%)"; link2_mapa4.style.backgroundImage = "url(/midia/upscalemedia-transformed.png)"; link2_mapa4.style.left = "90vh"})
@@ -211,7 +211,7 @@ link1_mapa4.addEventListener("dblclick", ()=> {
 })
 
 link2_mapa4.addEventListener("click", ()=> {perso4.style.animation = "fase2_mapa4 4s ease forwards"; link2_mapa4.style.filter = "brightness(75%)"; link3_mapa4.style.backgroundImage = "url(/midia/upscalemedia-transformed.png)"})
-link2_mapa4.addEventListener(()=> {
+link2_mapa4.addEventListener("dblclick", ()=> {
     window.open("genericQ.html", "_blank")
     const conteudo = {
         titulo: "Perguntas de Conhecimentos Gerais",
