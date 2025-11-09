@@ -39,8 +39,8 @@ link1.addEventListener("click", ()=> {perso1.style.animation = "fase1_mapa1 4s e
 link1.addEventListener("dblclick",()=> {
     window.open("generic.html", "_blank");
     const conteudo = {
-        titulo: "Exemplo de Título",
-        conteudo: "Este é um exemplo de conteúdo para o objeto JSON."
+        titulo: "O que é Deadshot.io?",
+        conteudo: "Deadshot.io é um jogo de tiro em primeira pessoa (FPS) online, jogado diretamente pelo navegador. O jogador entra em arenas multijogador para competir com outros, usando reflexos rápidos, mira precisa e estratégias de movimento. O objetivo é eliminar o maior número de oponentes e se manter vivo o máximo de tempo possível."
     }
     localStorage.setItem('conteudo', JSON.stringify(conteudo));
     link3.classList.remove('oculto')
@@ -51,12 +51,12 @@ link2.addEventListener("click", ()=> {perso1.style.animation = "fase2_mapa1 4s e
 link2.addEventListener("dblclick", ()=> {
     window.open("genericQ.html", "_blank")
     const conteudo = {
-        titulo: "Perguntas de Conhecimentos Gerais",
-        alt1: "Qual a capital do Brasil?",
-        alt2: "Qual o animal que late?",
-        alt3: "Em que ano a Lua foi pisada pela primeira vez?",
-        alt4: "Quem pintou a 'Mona Lisa'?",
-        certa: "alt1" 
+        titulo: "Qual é o gênero principal de Deadshot.io?",
+        alt1: "a) Corrida",
+        alt2: "b) Tiro em primeira pessoa (FPS)",
+        alt3: "c) Estratégia por turnos",
+        alt4: "d) RPG de ação",
+        certa: "alt2" 
     }
     localStorage.setItem('info', JSON.stringify(conteudo))
     link4.classList.remove('oculto')
@@ -66,12 +66,12 @@ link3.addEventListener("click", () => {perso1.style.animation = "fase3_mapa1 4s 
 link3.addEventListener("dblclick", ()=>  {
     window.open("genericQ.html", "_blank")
     const conteudo = {
-        titulo: "Perguntas de Conhecimentos Gerais",
-        alt1: "Qual a capital do Brasil?",
-        alt2: "Qual o animal que late?",
-        alt3: "Em que ano a Lua foi pisada pela primeira vez?",
-        alt4: "Quem pintou a 'Mona Lisa'?",
-        certa: "alt1" 
+        titulo: "O que o jogador deve fazer para vencer em Deadshot.io?",
+        alt1: "a) Resolver enigmas",
+        alt2: "b) Coletar moedas",
+        alt3: "c) Eliminar inimigos e sobreviver mais tempo",
+        alt4: "d) Construir defesas",
+        certa: "alt3" 
     }
     localStorage.setItem('info', JSON.stringify(conteudo))
 })
@@ -82,12 +82,12 @@ link4.addEventListener("dblclick", ()=> {
     Bmap2.style.display = "none"
     mapa2.style.visibility = "visible"
     const conteudo = {
-        titulo: "Perguntas de Conhecimentos Gerais",
-        alt1: "Qual a capital do Brasil?",
-        alt2: "Qual o animal que late?",
-        alt3: "Em que ano a Lua foi pisada pela primeira vez?",
-        alt4: "Quem pintou a 'Mona Lisa'?",
-        certa: "alt1" 
+        titulo: "Em que plataforma Deadshot.io pode ser jogado?",
+        alt1: "a) Somente em consoles",
+        alt2: "b) Apenas por aplicativo móvel",
+        alt3: "c) Diretamente pelo navegador",
+        alt4: "d) Requer instalação pesada",
+        certa: "alt3" 
     }
     localStorage.setItem('info', JSON.stringify(conteudo))
 })
@@ -99,8 +99,8 @@ link1_mapa2.addEventListener("click", ()=> {perso2.style.animation = "fase1_mapa
 link1_mapa2.addEventListener("dblclick", ()=> {
     window.open("generic.html", "_blank")
     const conteudo = {
-        titulo: "Exemplo de Título",
-        conteudo: "Este é um exemplo de conteúdo para o objeto JSON."
+        titulo: "Equipamentos do jogador",
+        conteudo: "No jogo, há diversas armas: rifles, metralhadoras e pistolas. Cada uma tem velocidade, precisão e dano diferentes. Saber escolher e dominar a arma ideal para o seu estilo é essencial para vencer."
     }
     localStorage.setItem('conteudo', JSON.stringify(conteudo))
     link3_mapa2.classList.remove('oculto');
@@ -110,12 +110,12 @@ link2_mapa2.addEventListener("click", ()=> {perso2.style.animation = "fase2_mapa
 link2_mapa2.addEventListener("dblclick", ()=> {
     window.open("genericQ.html", "_blank")
     const conteudo = {
-        titulo: "Perguntas de Conhecimentos Gerais",
-        alt1: "Qual a capital do Brasil?",
-        alt2: "Qual o animal que late?",
-        alt3: "Em que ano a Lua foi pisada pela primeira vez?",
-        alt4: "Quem pintou a 'Mona Lisa'?",
-        certa: "alt1" 
+        titulo: "Qual fator diferencia as armas em Deadshot.io?",
+        alt1: "a) Cor e tamanho",
+        alt2: "b) Precisão, dano e velocidade",
+        alt3: "c) Preço e peso",
+        alt4: "d) Som dos disparos",
+        certa: "alt2" 
     }
     localStorage.setItem('info', JSON.stringify(conteudo))
     link4_mapa2.classList.remove('oculto');
@@ -125,11 +125,11 @@ link3_mapa2.addEventListener("click", ()=> {perso2.style.animation = "fase3_mapa
 link3_mapa2.addEventListener("dblclick", ()=> {
     window.open("genericQ.html", "_blank")
     const conteudo = {
-        titulo: "Perguntas de Conhecimentos Gerais",
-        alt1: "Qual a capital do Brasil?",
-        alt2: "Qual o animal que late?",
-        alt3: "Em que ano a Lua foi pisada pela primeira vez?",
-        alt4: "Quem pintou a 'Mona Lisa'?",
+        titulo: "Por que é importante mudar de arma durante o jogo?",
+        alt1: "a) Para adaptar-se a diferentes situações",
+        alt2: "b) Para testar os sons",
+        alt3: "c) Porque a munição é infinita",
+        alt4: "d) Apenas por estética",
         certa: "alt1" 
     }
     localStorage.setItem('info', JSON.stringify(conteudo))
@@ -140,12 +140,12 @@ link4_mapa2.addEventListener("dblclick", ()=> {window.open("genericQ.html", "_bl
     mapa3.style.visibility = "visible"
 
     const conteudo = {
-        titulo: "Perguntas de Conhecimentos Gerais",
-        alt1: "Qual a capital do Brasil?",
-        alt2: "Qual o animal que late?",
-        alt3: "Em que ano a Lua foi pisada pela primeira vez?",
-        alt4: "Quem pintou a 'Mona Lisa'?",
-        certa: "alt1" 
+        titulo: "Qual dessas opções é uma boa estratégia?",
+        alt1: "a) Ficar parado atirando",
+        alt2: "b) Atirar sem mirar",
+        alt3: "c) Correr em linha reta",
+        alt4: "d) Mover-se constantemente e mirar na cabeça",
+        certa: "alt4" 
     }
     localStorage.setItem('info', JSON.stringify(conteudo))
 });
@@ -155,8 +155,8 @@ link1_mapa3.addEventListener("click", ()=> {perso3.style.animation = "fase1_mapa
 link1_mapa3.addEventListener("dblclick", ()=> {
     window.open("generic.html", "_blank");
     const conteudo = {
-        titulo: "Exemplo de Título",
-        conteudo: "Este é um exemplo de conteúdo para o objeto JSON."
+        titulo: "Ambientes e modos de jogo",
+        conteudo: "Deadshot.io oferece mapas variados, com obstáculos e áreas abertas. Existem modos como Deathmatch (todos contra todos) e Team Match (equipes). Cada mapa exige estratégias específicas."
     }
     localStorage.setItem('conteudo', JSON.stringify(conteudo));
     link3_mapa3.classList.remove('oculto');
@@ -210,8 +210,8 @@ link1_mapa4.addEventListener("click", ()=> {perso4.style.animation = "fase1_mapa
 link1_mapa4.addEventListener("dblclick", ()=> {
     window.open("generic.html", "_blank");
     const conteudo = {
-        titulo: "Exemplo de Título",
-        conteudo: "Este é um exemplo de conteúdo para o objeto JSON."
+        titulo: "Como melhorar no jogo",
+        conteudo: "Para evoluir em Deadshot.io, o jogador deve treinar mira, movimentação e tempo de reação. Jogar com frequência e observar outros jogadores também ajuda a entender as melhores estratégias."
     }
     localStorage.setItem('conteudo', JSON.stringify(conteudo));
     link3_mapa4.classList.remove('oculto');
