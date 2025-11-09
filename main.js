@@ -42,7 +42,8 @@ link1.addEventListener("dblclick",()=> {
         titulo: "Exemplo de Título",
         conteudo: "Este é um exemplo de conteúdo para o objeto JSON."
     }
-    localStorage.setItem('conteudo', JSON.stringify(conteudo))
+    localStorage.setItem('conteudo', JSON.stringify(conteudo));
+    link3.classList.remove('oculto')
     })
 // link1.addEventListener("click", ()=> perso.classList.remove("animacao_fase1"))
 
@@ -58,6 +59,7 @@ link2.addEventListener("dblclick", ()=> {
         certa: "alt1" 
     }
     localStorage.setItem('info', JSON.stringify(conteudo))
+    link4.classList.remove('oculto')
 })
 
 link3.addEventListener("click", () => {perso1.style.animation = "fase3_mapa1 4s ease forwards"; link3.style.filter = "brightness(75%)"; link4.style.backgroundImage = "url(/midia/upscalemedia-transformed.png)"; link4.style.top = "70px"})
@@ -101,6 +103,7 @@ link1_mapa2.addEventListener("dblclick", ()=> {
         conteudo: "Este é um exemplo de conteúdo para o objeto JSON."
     }
     localStorage.setItem('conteudo', JSON.stringify(conteudo))
+    link3_mapa2.classList.remove('oculto');
 })
 
 link2_mapa2.addEventListener("click", ()=> {perso2.style.animation = "fase2_mapa2 4s ease forwards"; link2_mapa2.style.filter = "brightness(75%)"; link3_mapa2.style.backgroundImage = "url(/midia/upscalemedia-transformed.png)"})
@@ -115,6 +118,7 @@ link2_mapa2.addEventListener("dblclick", ()=> {
         certa: "alt1" 
     }
     localStorage.setItem('info', JSON.stringify(conteudo))
+    link4_mapa2.classList.remove('oculto');
 })
 
 link3_mapa2.addEventListener("click", ()=> {perso2.style.animation = "fase3_mapa2 4s ease forwards"; link3_mapa2.style.filter = "brightness(75%)"; link4_mapa2.style.backgroundImage = "url(/midia/upscalemedia-transformed.png)"})
@@ -155,6 +159,7 @@ link1_mapa3.addEventListener("dblclick", ()=> {
         conteudo: "Este é um exemplo de conteúdo para o objeto JSON."
     }
     localStorage.setItem('conteudo', JSON.stringify(conteudo));
+    link3_mapa3.classList.remove('oculto');
 })
 
 link2_mapa3.addEventListener("click", ()=> {perso3.style.animation = "fase2_mapa3 4s ease forwards"; link2_mapa3.style.filter = "brightness(75%)"; link3_mapa3.style.backgroundImage = "url(/midia/upscalemedia-transformed.png)"})
@@ -169,6 +174,7 @@ link2_mapa3.addEventListener("dblclick", ()=> {
         certa: "alt1" 
     }
     localStorage.setItem('info', JSON.stringify(conteudo))
+    link4_mapa3.classList.remove('oculto');
 })
 
 link3_mapa3.addEventListener("click", ()=> {perso3.style.animation = "fase3_mapa3 4s ease forwards"; link3_mapa3.style.filter = "brightness(75%)"; link4_mapa3.style.backgroundImage = "url(/midia/upscalemedia-transformed.png)"})
@@ -208,6 +214,7 @@ link1_mapa4.addEventListener("dblclick", ()=> {
         conteudo: "Este é um exemplo de conteúdo para o objeto JSON."
     }
     localStorage.setItem('conteudo', JSON.stringify(conteudo));
+    link3_mapa4.classList.remove('oculto');
 })
 
 link2_mapa4.addEventListener("click", ()=> {perso4.style.animation = "fase2_mapa4 4s ease forwards"; link2_mapa4.style.filter = "brightness(75%)"; link3_mapa4.style.backgroundImage = "url(/midia/upscalemedia-transformed.png)"})

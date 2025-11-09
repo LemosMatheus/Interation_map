@@ -337,6 +337,10 @@ section {
     top: 37vh;
     cursor: pointer;
 }
+
+.oculto {
+    display: none;
+}
 /* .animacao_fase1 {
     animation: fase1 4s ;
     animation-iteration-count: 1;
