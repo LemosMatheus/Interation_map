@@ -35,7 +35,7 @@ const perso4 = document.getElementById("personagem_mapa4")
 
 let fases = 0
 //MAPA 1
-link1.addEventListener("click", ()=> {perso1.style.animation = "fase1_mapa1 4s ease forwards"; fases++; link1.style.filter = "brightness(75%)"; link2.style.backgroundImage = "url(/midia/upscalemedia-transformed.png)"; link2.style.top = "30px";})
+link1.addEventListener("click", ()=> {perso1.style.animation = "fase1_mapa1 4s ease forwards"; fases++; link1.style.filter = "brightness(75%)";})
 link1.addEventListener("dblclick",()=> {
     window.open("generic.html", "_blank");
     const conteudo = {
@@ -43,7 +43,9 @@ link1.addEventListener("dblclick",()=> {
         conteudo: "Deadshot.io é um jogo de tiro em primeira pessoa (FPS) online, jogado diretamente pelo navegador. O jogador entra em arenas multijogador para competir com outros, usando reflexos rápidos, mira precisa e estratégias de movimento. O objetivo é eliminar o maior número de oponentes e se manter vivo o máximo de tempo possível."
     }
     localStorage.setItem('conteudo', JSON.stringify(conteudo));
-    link3.classList.remove('oculto')
+    link3.classList.remove('oculto');
+    link2.style.backgroundImage = "url(/midia/upscalemedia-transformed.png)";
+    link2.style.top = "30px"
     })
 // link1.addEventListener("click", ()=> perso.classList.remove("animacao_fase1"))
 
@@ -95,7 +97,7 @@ link4.addEventListener("dblclick", ()=> {
 // document.getElementById('is').innerText = nome
 
 //MAPA2
-link1_mapa2.addEventListener("click", ()=> {perso2.style.animation = "fase1_mapa2 4s ease forwards"; link1_mapa2.style.filter = "brightness(75%)"; link2_mapa2.style.backgroundImage = "url(/midia/upscalemedia-transformed.png)"})
+link1_mapa2.addEventListener("click", ()=> {perso2.style.animation = "fase1_mapa2 4s ease forwards"; link1_mapa2.style.filter = "brightness(75%)"; })
 link1_mapa2.addEventListener("dblclick", ()=> {
     window.open("generic.html", "_blank")
     const conteudo = {
@@ -104,6 +106,7 @@ link1_mapa2.addEventListener("dblclick", ()=> {
     }
     localStorage.setItem('conteudo', JSON.stringify(conteudo))
     link3_mapa2.classList.remove('oculto');
+    link2_mapa2.style.backgroundImage = "url(/midia/upscalemedia-transformed.png)";
 })
 
 link2_mapa2.addEventListener("click", ()=> {perso2.style.animation = "fase2_mapa2 4s ease forwards"; link2_mapa2.style.filter = "brightness(75%)"; link3_mapa2.style.backgroundImage = "url(/midia/upscalemedia-transformed.png)"})
